@@ -21,10 +21,10 @@ function App() {
             </ul>
         </div>
         <div>
-        <img className= "img" src="/images/a1.jpg" alt="img" />
-        <img className= "imgb" src="/images/b1.jpg" alt="img" />
-        <img className= "img" src="/images/e1.jpg" alt="img" />
-        <img className= "imgb" src="/images/c1.jpg" alt="img" />
+          <img className= "img" src="/images/a1.jpg" alt="img" />
+          <img className= "imgb" src="/images/b1.jpg" alt="img" />
+          <img className= "img" src="/images/e1.jpg" alt="img" />
+          <img className= "imgb" src="/images/c1.jpg" alt="img" />
         </div>
         <div className="display">
 
