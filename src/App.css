@@ -7,24 +7,35 @@
   height: 500px;
 }
 .Header {
-  background-color: rgb(72, 115, 128);
+  background-color: rgb(21, 67, 83);
   height: 200px;
   width: 900px;
- margin-top: 20px;
-  border-radius: 20px;
-  
-
+  margin-top: 20px;
+  border-radius: 0 0px 15px 15px;
+  padding: 10px;
+  margin: 0 auto;
 }
-
-
-/*ul, li, a {
+h1 {
+  margin-top: 10px;
+  font-size: 65px;
+  color: rgb(177, 243, 232);
+  letter-spacing: 10px;
+}
+h2{
+  letter-spacing: 12px;
+  color: rgb(166, 216, 65);
+  font-size: 25px;
+}
+ul, li, a {
     display: inline;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 20px;
-    color: #c0f3f3;
+    color: rgb(177, 243, 232);
     text-decoration: none;
-    margin-top: 90px;
+    margin-top: 80px;
+    letter-spacing: 5px;
+    
 }    
 .nav {
     list-style: none;
@@ -37,6 +48,5 @@
     transition: all 0.3s ease 0s;
 }
 .nav li a:hover {
-    color: #ebebeb;
+    color: rgb(166, 216, 65);
 }
-*/
