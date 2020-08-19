@@ -4,7 +4,7 @@ import './App.css';
 
 
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <div className="Header">
@@ -13,6 +13,7 @@ function App() {
       </div>
         <div>
             <ul className="nav">
+                <li><a href="#">Home</a></li>
                 <li><a href="#">Download</a></li>
                 <li><a href="#">Licensing</a></li>
                 <li><a href="#">Subscription</a></li>
@@ -34,4 +35,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
