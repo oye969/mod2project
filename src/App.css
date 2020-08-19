@@ -79,3 +79,7 @@ ul, li, a {
 .reg-form {
   background-color: thistle;
 }
+.licence-word {
+  font-size: 20px;
+  color: rgb(1, 2, 2);
+}
