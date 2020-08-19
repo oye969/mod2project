@@ -17,7 +17,8 @@ function App() {
                 <li><a href="#">Licensing</a></li>
                 <li><a href="#">Subscription</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Create Account | Sign in</a></li>
+                <li><a href="#">Create Account</a></li>
+                <li><a href="#">Sign in</a></li>
             </ul>
         </div>
         <div>
