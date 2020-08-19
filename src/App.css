@@ -79,7 +79,16 @@ ul, li, a {
 .reg-form {
   background-color: thistle;
 }
-.licence-word {
+h3 {
+  font-size: 40px;
+  color: rgb(1, 2, 2);
+  padding-top: 30px;
+  letter-spacing: 10px;
+}
+h4 {
   font-size: 20px;
   color: rgb(1, 2, 2);
+  padding: 8px 30px 30px 30px;
+  line-height: 28px;
 }
+
