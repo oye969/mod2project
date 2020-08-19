@@ -1,4 +1,11 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect
+} from 'react-router-dom'
 
 
 
@@ -13,13 +20,13 @@ function Home() {
       </div>
         <div>
             <ul className="nav-bar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Download</a></li>
-                <li><a href="#">Licensing</a></li>
-                <li><a href="#">Subscription</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Create Account</a></li>
-                <li><a href="#">Sign in</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/Download">Download</Link></li>
+                <li><Link to="/Licensing">Licensing</Link></li>
+                <li><Link to="/Subscription">Subscription</Link></li>
+                <li><Link to="/Contact">Contact</Link></li>
+                <li><Link to="/Createaccount">Create Account</Link></li>
+                <li><Link to="/Signin">Sign in</Link></li>
             </ul>
         </div>
         <div>
