@@ -6,13 +6,13 @@ import './App.css';
 
 function Home() {
   return (
-    <div className="App">
-      <div className="Header">
+    <div className="App-wrapper">
+      <div className="Header-top">
         <h1>MUZIKI</h1>
         <h2>...refreshing the SOUL!</h2>
       </div>
         <div>
-            <ul className="nav">
+            <ul className="nav-bar">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Download</a></li>
                 <li><a href="#">Licensing</a></li>
@@ -23,12 +23,12 @@ function Home() {
             </ul>
         </div>
         <div>
-          <img className= "img" src="/images/a1.jpg" alt="img" />
-          <img className= "imgb" src="/images/b1.jpg" alt="img" />
-          <img className= "img" src="/images/e1.jpg" alt="img" />
-          <img className= "imgb" src="/images/c1.jpg" alt="img" />
+          <img className= "img-display" src="/images/a1.jpg" alt="img" />
+          <img className= "imgb-display" src="/images/b1.jpg" alt="img" />
+          <img className= "img-display" src="/images/e1.jpg" alt="img" />
+          <img className= "imgb-display" src="/images/c1.jpg" alt="img" />
         </div>
-        <div className="display">
+        <div className="display-songs">
 
         </div>
     </div>
