@@ -8,19 +8,21 @@ import {
     Redirect
 } from 'react-router-dom'
 import Home from './components/Home'
-import Home from './components/Contact';
-import Home from './components/Createaccount';
-import Home from './components/Download';
-import Home from './components/Licensing';
-import Home from './components/Subscription';
-import Home from './components/Signin';
+import Contact from './components/Contact';
+import Createaccount from './components/Createaccount';
+import Download from './components/Download';
+import Licensing from './components/Licensing';
+import Subscription from './components/Subscription';
+import Signin from './components/Signin';
 
 
 function App() {
     return(
         <Router>
             <div>
-                
+                <nav className="nav-bar">
+                    <Link to='/'>Home</Link>
+                </nav>
             </div>
         </Router>
     )
