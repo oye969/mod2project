@@ -25,8 +25,8 @@ function App() {
                     <Route path='/Licensing' component={Licensing}/>
                     <Route path='/Subscription' component={Subscription}/>
                     <Route path='/Contact' component={Contact}/>
-                    <Route path='/Create Account' component={Createaccount}/>
-                    <Route path='/Sign in' component={Signin}/>
+                    <Route path='/Createaccount' component={Createaccount}/>
+                    <Route path='/Signin' component={Signin}/>
 
                     <Redirect path='/'/>
                 </Switch>
