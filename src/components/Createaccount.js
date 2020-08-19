@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-class createaccount extends React.Component {
+class Createaccount extends React.Component {
     constructor(props){
         super(props);
             this.state = {
@@ -14,10 +14,10 @@ class createaccount extends React.Component {
     }
     render() {
         return (
-            <div class="reg">
+            <div class="reg-form">
                 
                 <form>
-                <h1 class="form">Register Here!</h1>
+                <h1 class="form-reg">Register Here!</h1>
                     <label>
                         <h3>First Name</h3>
                         <input type='text' placeholder="First Name" value={this.handleChange.change}
@@ -29,11 +29,11 @@ class createaccount extends React.Component {
                         onChange={this.state.value} />
                     </label>
                     <br></br><br></br>
-                        <input class="btn" type='Submit' value='Click Here to Submit'/>
+                        <input class="btn-submit" type='Submit' value='Click Here to Submit'/>
                 </form>
             </div>
         )
     }
 }
 
-export default createaccount;
+export default Createaccount;

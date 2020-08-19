@@ -20,7 +20,7 @@ function App() {
     return(
         <Router>
             <div>
-                <switch>
+                <Switch>
                     <Route exact path='/' component={Home}/>
                     <Route path='/Listen to Music' component={Listentomusic}/>
                     <Route path='/Licensing' component={Licensing}/>
@@ -30,7 +30,7 @@ function App() {
                     <Route path='/Sign in' component={Signin}/>
 
                     <Redirect path='/'/>
-                </switch>
+                </Switch>
             </div>
         </Router>
     );
