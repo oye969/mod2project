@@ -10,7 +10,7 @@ import {
 import Home from './components/Home'
 import Contact from './components/Contact';
 import Createaccount from './components/Createaccount';
-import Download from './components/Download';
+import Listentomusic from './components/Listentomusic';
 import Licensing from './components/Licensing';
 import Subscription from './components/Subscription';
 import Signin from './components/Signin';
@@ -22,7 +22,7 @@ function App() {
             <div>
                 <switch>
                     <Route exact path='/' component={Home}/>
-                    <Route path='/Download' component={Download}/>
+                    <Route path='/Listen to Music' component={Listentomusic}/>
                     <Route path='/Licensing' component={Licensing}/>
                     <Route path='/Subscription' component={Subscription}/>
                     <Route path='/Contact' component={Contact}/>

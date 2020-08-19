@@ -21,7 +21,7 @@ function Home() {
         <div>
             <ul className="nav-bar">
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/Download">Download</Link></li>
+                <li><Link to="/Listentomusic">Listen to Music</Link></li>
                 <li><Link to="/Licensing">Licensing</Link></li>
                 <li><Link to="/Subscription">Subscription</Link></li>
                 <li><Link to="/Contact">Contact</Link></li>
