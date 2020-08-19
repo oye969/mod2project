@@ -20,15 +20,6 @@ function App() {
     return(
         <Router>
             <div>
-                <nav className="nav-bar">
-                    <Link to='/'>Home</Link>
-                    <Link to='/'>Download</Link>
-                    <Link to='/'>Licensing</Link>
-                    <Link to='/'>Subscription</Link>
-                    <Link to='/'>Contact</Link>
-                    <Link to='/'>Create Account</Link>
-                    <Link to='/'>Sign in</Link>
-                </nav>
                 <switch>
                     <Route exact path='/' component={Home}/>
                     <Route path='/Download' component={Download}/>
