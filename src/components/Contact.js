@@ -25,14 +25,18 @@ function Contact() {
                 <li><Link to="/Signin">Sign in</Link></li>
             </ul>
         </div>
+        <div className="display-songs">
+            <h3>CONTACT</h3>
+            <h4>
+           MUZIKI INC<br></br>Muziki Plaza New York NY 10001<br></br>347 222 5252<br></br>info@muziki.com<br></br>www.muziki.com
+            </h4>
+
+        </div>
         <div>
           <img className= "img-display" src="/images/a1.jpg" alt="img" />
           <img className= "imgb-display" src="/images/b1.jpg" alt="img" />
           <img className= "img-display" src="/images/e1.jpg" alt="img" />
           <img className= "imgb-display" src="/images/c1.jpg" alt="img" />
-        </div>
-        <div className="display-songs">
-
         </div>
     </div>
   );
