@@ -40,20 +40,24 @@ ul, li, a {
     margin-top: 100px;
     letter-spacing: 5px;   
 } 
-  
+
 .nav-bar {
     list-style: none;
 }
+
 .nav-bar li {
     display: inline-block;
     padding: 0px 40px;
 } 
+
 .nav-bar li a {
     transition: all 0.3s ease 0s;
 }
+
 .nav-bar li a:hover {
     color: rgb(166, 216, 65);
 }
+
 .img-display {
     display: inline;
     padding: 6px;
