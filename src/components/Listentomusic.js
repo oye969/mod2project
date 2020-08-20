@@ -14,7 +14,8 @@ class Listentomusic extends React.Component {
     const url = ("https://openwhyd.github.io/openwhyd/API");
     const response = await fetch(cors + url);
     const data = await response.json();
-    this.setState ({ songs: data});
+    console.log(data);
+    this.setState ({songs: data});
   }
   
   render() {
