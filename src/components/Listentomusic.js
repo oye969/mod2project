@@ -43,7 +43,7 @@ class Listentomusic extends React.Component {
         <div className="display-songs">
             <h3>PLAY SONG</h3>
             <h4>
-              Have you ever thought about how many songs with choose in   the title have been written? This list ranks the best   songs with choose in the name, regardless of genre. Most  of the tracks listed here are songs about choosing, but  almost all of them have different lyrical interpretations,   despite the commonality of having the word choose in the  title.
+              Have you ever thought about how many songs with choose in the title have been written? This list ranks the best songs with choose in the name, regardless of genre. Most of the tracks listed here are songs about choosing, but  almost all of them have different lyrical interpretations, despite the commonality of having the word choose in the title.
             </h4>
             <button>Play Song</button>
         </div>
