@@ -66,6 +66,7 @@ ul, li, a {
     border-radius: 20px;
     border: 1.5px solid rgb(181, 230, 85);
 }
+
 .imgb-display {
   display: inline;
   padding: 6px;
@@ -74,6 +75,7 @@ ul, li, a {
   border-radius: 20px;
   border: 1.5px solid rgb(48, 187, 206);
 }
+
 .display-songs {
  width: 900px;
  height:400px;
@@ -84,18 +86,21 @@ ul, li, a {
  margin-bottom: 15px;
 
 }
+
 h3 {
   font-size: 40px;
   color: rgb(1, 2, 2);
   padding-top: 30px;
   letter-spacing: 10px;
 }
+
 h4 {
   font-size: 20px;
   color: rgb(1, 2, 2);
   padding: 8px 30px 30px 30px;
   line-height: 28px;
 }
+
 button {
   height: 50px;
   width: 120px;
