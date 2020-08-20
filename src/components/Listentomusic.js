@@ -12,7 +12,7 @@ class Listentomusic extends React.Component {
 
     };
   }
-  
+
     async componentDidMount() {
     const cors = "https://cors-anywhere.herokuapp.com/";
     const url = ("https://openwhyd.github.io/openwhyd/API");
@@ -28,7 +28,7 @@ class Listentomusic extends React.Component {
         <div className="Header-top">
           <h1>MUZIKI</h1>
           <h2>...refreshing the SOUL!</h2>
-        </div>
+      </div>
         <div>
             <ul className="nav-bar">
                 <li><Link to="/">Home</Link></li>
@@ -47,7 +47,6 @@ class Listentomusic extends React.Component {
             </h4>
             <button>Play Song</button>
         </div>
-        
       </div>
     );
   }
