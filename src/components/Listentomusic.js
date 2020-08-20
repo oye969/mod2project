@@ -20,12 +20,13 @@ class Listentomusic extends React.Component {
   
   render() {
     return (
-        <div>
-          <h1>
-            Listen To Music!
-          </h1>
-
+      <div className="App-wrapper">
+        <div className="Header-top">
+          <h1>MUZIKI</h1>
+          <h2>...refreshing the SOUL!</h2>
         </div>
+        
+      </div>
     );
   }
 }
