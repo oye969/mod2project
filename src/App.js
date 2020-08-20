@@ -28,7 +28,7 @@ function App() {
                     <Route path='/Createaccount' component={Createaccount}/>
                     <Route path='/Signin' component={Signin}/>
 
-                    <Redirect path='/'/>
+                    <Redirect to='/'/>
                 </Switch>
             </div>
         </Router>
