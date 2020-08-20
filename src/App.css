@@ -34,8 +34,7 @@ ul, li, a {
     color: rgb(179, 235, 225);
     text-decoration: none;
     margin-top: 100px;
-    letter-spacing: 5px;
-    
+    letter-spacing: 5px;   
 }    
 .nav-bar {
     list-style: none;
