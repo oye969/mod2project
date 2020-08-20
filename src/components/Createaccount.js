@@ -27,11 +27,11 @@ function Createaccount() {
         </div>
       <div className="display-songs">
         <h3>CREATE ACCOUNT</h3>
-        <h4>To create an account you need a valid email address. To receive text messages you need to a valid mobile phone number. Select the topics you're interested in and we'll send you the updates. You'll receive a confirmation notice afterwards, and you can easily update your preferences anytime.
+        <h4>
+          To create an account you need a valid email address. To receive text messages you need to a valid mobile phone number. Select the topics you're interested in and we'll send you the updates. You'll receive a confirmation notice afterwards, and you can easily update your preferences anytime.
         </h4>
-            <button> Create Account</button>
-
-        </div>
+        <button> Create Account</button>
+      </div>
         <div>
           <img className= "img-display" src="/images/a1.jpg" alt="img" />
           <img className= "imgb-display" src="/images/b1.jpg" alt="img" />
