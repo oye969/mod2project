@@ -43,7 +43,7 @@ class Listentomusic extends React.Component {
         <div className="display-songs">
             <h3>PLAY SONG</h3>
             <h4>
-            To create an account you need a valid email address. To receive text messages you need to a valid mobile phone number. Select the topics you're interested in and we'll send you the updates. You'll receive a confirmation notice afterwards, and you can easily update your preferences anytime.
+            Have you ever thought about how many songs with choose in the title have been written? This list ranks the best songs with choose in the name, regardless of genre. Most of the tracks listed here are songs about choosing, but almost all of them have different lyrical interpretations, despite the commonality of having the word choose in the title.
             </h4>
             <button>Play Song</button>
         </div>
