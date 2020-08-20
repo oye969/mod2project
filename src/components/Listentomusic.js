@@ -41,7 +41,7 @@ class Listentomusic extends React.Component {
             </ul>
         </div>
         <div className="display-songs">
-            <h3>CREATE ACCOUNT</h3>
+            <h3>PLAY SONG</h3>
             <h4>
             To create an account you need a valid email address. To receive text messages you need to a valid mobile phone number. Select the topics you're interested in and we'll send you the updates. You'll receive a confirmation notice afterwards, and you can easily update your preferences anytime.
             </h4>
