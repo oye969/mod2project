@@ -9,10 +9,6 @@ class Listentomusic extends React.Component {
     };
     
   }
-    state = {
-    songs: []
-
-    };
     async componentDidMount() {
     const url = ("https://openwhyd.github.io/openwhyd/API");
     const response = await fetch(url);
