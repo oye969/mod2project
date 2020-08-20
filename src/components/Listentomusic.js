@@ -10,8 +10,9 @@ class Listentomusic extends React.Component {
     
   }
     async componentDidMount() {
+    const cors = "https://cors-anywhere.herokuapp.com/";
     const url = ("https://openwhyd.github.io/openwhyd/API");
-    const response = await fetch(url);
+    const response = await fetch(cors + url);
     const data = await response.json();
     this.setState ({ songs: data});
   }
