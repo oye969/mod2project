@@ -29,6 +29,7 @@ h2{
   color: rgb(166, 216, 65);
   font-size: 25px;
 }
+
 ul, li, a {
     display: inline;
     font-family: "Montserrat", sans-serif;
@@ -38,7 +39,8 @@ ul, li, a {
     text-decoration: none;
     margin-top: 100px;
     letter-spacing: 5px;   
-}    
+} 
+  
 .nav-bar {
     list-style: none;
 }
