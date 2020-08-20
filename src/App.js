@@ -21,7 +21,7 @@ function App() {
             <div>
                 <Switch>
                     <Route exact path='/' component={Home}/>
-                    <Route path='/Listen to Music' component={Listentomusic}/>
+                    <Route path='/ListentoMusic' component={Listentomusic}/>
                     <Route path='/Licensing' component={Licensing}/>
                     <Route path='/Subscription' component={Subscription}/>
                     <Route path='/Contact' component={Contact}/>
