@@ -47,6 +47,12 @@ class Listentomusic extends React.Component {
             </h4>
             <button>Play Song</button>
         </div>
+        <div>
+          <img className= "img-display" src="/images/a1.jpg" alt="img" />
+          <img className= "imgb-display" src="/images/b1.jpg" alt="img" />
+          <img className= "img-display" src="/images/e1.jpg" alt="img" />
+          <img className= "imgb-display" src="/images/c1.jpg" alt="img" />
+        </div>
       </div>
     );
   }
