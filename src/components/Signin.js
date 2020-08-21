@@ -27,7 +27,7 @@ function Signin() {
         <h3>SIGN IN</h3>
         <h4>To sign up you need a valid email address. To receive text messages you need to a valid mobile phone number. Select the topics you're interested in and we'll send you the updates. You'll receive a confirmation notice afterwards, and you can easily update your preferences anytime.
         </h4>
-        <button> Click to Sign in</button>
+        <button>Click to Sign in</button>
       </div>
       <div>
         <img className= "img-display" src="/images/a1.jpg" alt="img" />
