@@ -76,6 +76,28 @@ ul, li, a {
   border: 1.5px solid rgb(48, 187, 206);
 }
 
+.img-display:hover {
+  display: inline;
+  padding: 6px;
+  margin: 10px;
+  margin-top: 100px;
+  border-radius: 20px;
+  border: 1.5px solid rgb(181, 230, 85);
+  transition: all 1s ease;
+  opacity: 0.6;
+}
+
+.imgb-display:hover {
+display: inline;
+padding: 6px;
+margin: 10px;
+margin-top: 100px;
+border-radius: 20px;
+border: 1.5px solid rgb(48, 187, 206);
+transition: all 1s ease;
+opacity: 0.6;
+}
+
 .display-songs {
  width: 900px;
  height:400px;
