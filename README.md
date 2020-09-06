@@ -1,3 +1,10 @@
+This project work is done in React. It is meant to be an a website that allows the user to play music.
+
+The Project can be viewed in a broswer by clicking this link: https://amazing-jennings-cd4d43.netlify.app/
+
+Thank you!
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
