@@ -84,7 +84,7 @@ ul, li, a {
   border-radius: 20px;
   border: 1.5px solid rgb(181, 230, 85);
   transition: all 1s ease;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .imgb-display:hover {
@@ -95,7 +95,7 @@ margin-top: 100px;
 border-radius: 20px;
 border: 1.5px solid rgb(48, 187, 206);
 transition: all 1s ease;
-opacity: 0.6;
+opacity: 0.8;
 }
 
 .display-songs {
